@@ -69,6 +69,7 @@ public class FragmentBarang2 extends android.support.v4.app.Fragment {
         return v;
     }
 
+
     @Override
     public void onResume() {
         super.onResume();
