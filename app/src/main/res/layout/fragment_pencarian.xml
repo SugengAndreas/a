@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnSearch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/btnSearch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/btnSearch"
+            android:background="@drawable/form_background"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Nama Barang"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="32"
+            android:padding="8dp"
+            android:singleLine="true" />
+
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:padding="16dp"
+            android:src="@mipmap/ic_search" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listHasilPencarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:dividerHeight="4dp"
+        android:drawSelectorOnTop="false" />
+
+    <TextView
+        android:id="@+id/txtNotFound"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/body"
+        android:gravity="center"
+        android:text="Tidak Ditemukan"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:background="@drawable/facebook_logo" />
+
+        <TextView
+            android:id="@+id/txtFacebook"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_background"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="Facebook"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:background="@drawable/twitter_logo" />
+
+        <TextView
+            android:id="@+id/txtTwitter"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_background"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="Twitter"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:background="@drawable/instagram_logo" />
+
+        <TextView
+            android:id="@+id/txtInstagram"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/form_background"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="Instagram"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Distro</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_image">Gambar Splash</string>
+
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="list_image">List Image</string>
+    <string name="not_found">Data belum tersedia</string>
+    <string name="button_cari">Cari</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="alamat">Alamat</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDptK8wKa0VmN-MLqycO8y_ZLWKKDJTdCs</string>
+
+    <string-array name="drawer_titles">
+        <item>Pencarian</item>
+        <item>Barang</item>
+        <item>Sosial</item>
+        <item>Login</item>
+    </string-array>
+    <string-array name="drawer_titles_login">
+        <item>Pencarian</item>
+        <item>Barang</item>
+        <item>Sosial</item>
+        <item>Cart</item>
+        <item>Konfirmasi</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="nama_bank">
+        <item>BCA</item>
+        <item>BNI</item>
+        <item>BRI</item>
+    </string-array>
+    <string name="title_activity_activity_map">Map</string>
+    <string name="telepon">Telepon</string>
+    <string name="isi_help">Isi Help</string>
+    <string name="isi_about">Isi About</string>
+</resources>

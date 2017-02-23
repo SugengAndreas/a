@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="color_accent">#fff</color>
+    <color name="tab_text">#000000</color>
+    <color name="tab_background">#000000</color>
+
+    <color name="light_blue">#2196F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_blue">#0D47A1</color>
+    <color name="grey">#555</color>
+    <color name="list_background_pressed">#2196F3</color>
+    <color name="list_background">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="activity_background">#BBB</color>
+</resources>
